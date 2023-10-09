@@ -37,6 +37,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.comboBox1.Items.AddRange(new object[] {
             "Công nghệ thông tin",
             "Ngoại ngữ",
@@ -44,26 +45,29 @@
             "Cơ khí",
             "Điện",
             "Cơ khí động lực"});
-            this.comboBox1.Location = new System.Drawing.Point(75, 28);
+            this.comboBox1.Location = new System.Drawing.Point(100, 34);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(325, 21);
+            this.comboBox1.Size = new System.Drawing.Size(432, 24);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // tbDisplay
             // 
-            this.tbDisplay.Location = new System.Drawing.Point(75, 90);
+            this.tbDisplay.Location = new System.Drawing.Point(100, 111);
+            this.tbDisplay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbDisplay.Multiline = true;
             this.tbDisplay.Name = "tbDisplay";
-            this.tbDisplay.Size = new System.Drawing.Size(325, 155);
+            this.tbDisplay.Size = new System.Drawing.Size(432, 190);
             this.tbDisplay.TabIndex = 1;
             // 
             // btnClear
             // 
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(197, 283);
+            this.btnClear.Location = new System.Drawing.Point(263, 348);
+            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(79, 43);
+            this.btnClear.Size = new System.Drawing.Size(105, 53);
             this.btnClear.TabIndex = 2;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -71,9 +75,10 @@
             // btnOK
             // 
             this.btnOK.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOK.Location = new System.Drawing.Point(325, 283);
+            this.btnOK.Location = new System.Drawing.Point(433, 348);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 43);
+            this.btnOK.Size = new System.Drawing.Size(100, 53);
             this.btnOK.TabIndex = 3;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -81,13 +86,14 @@
             // 
             // Form12
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.tbDisplay);
             this.Controls.Add(this.comboBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form12";
             this.Text = "Form12";
             this.ResumeLayout(false);

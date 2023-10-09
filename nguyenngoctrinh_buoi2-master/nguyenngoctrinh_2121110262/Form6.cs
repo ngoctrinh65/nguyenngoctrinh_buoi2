@@ -10,13 +10,17 @@ using System.Windows.Forms;
 
 namespace nguyenngoctrinh_2121110262
 {
-    public partial class Form16 : Form
+    public partial class Form6 : Form
     {
-        public Form16()
+        public Form6()
         {
             InitializeComponent();
         }
 
-     
+        private void bt_OK_Click(object sender, EventArgs e)
+        {
+            this.Text = "Artical for button";
+            this.Size = new Size(500,500);
+        }
     }
 }

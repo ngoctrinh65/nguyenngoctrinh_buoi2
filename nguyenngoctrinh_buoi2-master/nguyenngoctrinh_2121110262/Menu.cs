@@ -76,5 +76,35 @@ namespace nguyenngoctrinh_2121110262
             Form15 form15 = new Form15();
             form15.ShowDialog();
         }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Form16 form16 = new Form16();
+            form16.ShowDialog();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Form17 form17 = new Form17();
+            form17.ShowDialog();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Form18 form18 = new Form18();
+            form18.ShowDialog();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            Form19 form19 = new Form19();
+            form19.ShowDialog();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            Form7 form7 = new Form7();
+            form7.ShowDialog();
+        }
     }
 }
